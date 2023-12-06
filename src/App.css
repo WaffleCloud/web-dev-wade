@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+
+a:link {color: rgb(22, 22, 22); text-decoration: none; border: none; }
+a:visited {color: rgb(22, 22, 22); }
+a:hover {color: rgb(150, 150, 150); border: none; }
+a:active {color: rgb(255, 255, 255); }
+
+body {
+  font-family: 'Smooch Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.intro-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align:center;
+}
+
+.intro-text-box {
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.main-box {
+  box-shadow: 1px 5px 10px 5px rgba(22, 22, 22, 0.7);
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align:center;
+  background-color: rgb(255, 255, 255);
+  transition: all 3s ease-in-out;
+}
+
+
+.nav-button{
+  cursor: pointer;
+  margin: 30px;
+}
+
+.nav-button:hover{
+  color: gray;
+}
+
+.nav-button:active{
+  color: white;
+}
+
+.nav-container{
+  padding: 30px;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 30px; 
+  position: sticky; 
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255,255,255);
+}
+
+p{
+  font-size: 25px;
+}
+
+.profile-pic-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 300px;
+  margin-right: 0;
+}
+
+.video-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
