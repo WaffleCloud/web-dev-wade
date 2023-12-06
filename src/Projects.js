@@ -27,6 +27,10 @@ const Projects = () => {
                     'width': '480px',
                     'height': '300px'}}>
                 <source src={dwaSite} 
+                style={{
+                    'height': '230px',
+                    'width' : '480px',
+                }}
                 type="video/mp4"
                 ></source>
                 </video>
@@ -61,7 +65,11 @@ const Projects = () => {
                     'padding': '10px',
                     'width': '480px',
                     'height': '300px'}}>
-                <source src={cddSite} 
+                <source src={cddSite}
+                 style={{
+                    'height': '230px',
+                    'width' : '480px',
+                }} 
                 type="video/mp4"
                 ></source>
                 </video>
@@ -96,6 +104,10 @@ const Projects = () => {
                     'width': '480px',
                     'height': '300px'}}>
                 <source src={twSite} 
+                 style={{
+                    'height': '230px',
+                    'width' : '480px',
+                }}
                 type="video/mp4"
                 ></source>
                 </video>

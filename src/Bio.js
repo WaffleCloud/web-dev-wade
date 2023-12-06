@@ -23,7 +23,7 @@ const Bio = () => {
             </div>
 
             <br/>
-            My coding journey began 3 years ago. <br/>
+            My coding journey began 4 years ago. <br/>
             At first, I did small html projects learning from youtube tutorials and Free Code Camp. <br/>
             Then I began attending free classes at CodeSmith. <br/>
             <br/> <br/>
